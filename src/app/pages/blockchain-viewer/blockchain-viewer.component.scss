@@ -1,0 +1,36 @@
+.app-head {
+    padding: 35px 0px 35px 35px;
+    background: #15202B;
+    color: white;
+
+    h1 {
+        margin: 0px;
+    }
+
+    p {
+        margin-top: 5px;
+    }
+}
+
+.container {
+    display: inline-flex;
+    background: #15202B;
+    padding: 0px 30px 30px 30px;
+    transform: translateX(-60px)
+}
+
+.table-container {
+    position: absolute;
+    background: #fff;
+    bottom: 0px;
+    width: 100%;
+    padding: 90px 0px 60px 0px;
+    border-radius: 15px 15px 0px 0px;
+    //filter: invert(1);
+    transition: 1s;
+
+    h1 {
+        margin-left: 60px;
+    }
+}
+

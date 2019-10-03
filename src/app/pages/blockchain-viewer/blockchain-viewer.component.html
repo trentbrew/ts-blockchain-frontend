@@ -1,0 +1,9 @@
+<div class="app-head">
+    <h1>Activity</h1>
+</div>
+<div class="container">
+    <app-block-view class="h-view" *ngFor="let block of blocks" [block]="block" (click)="showTransactions(block)"></app-block-view>
+</div>
+<div class="table-container">
+    <app-transactions-table [transactions]="selectedBlock.transactions"></app-transactions-table>
+</div>

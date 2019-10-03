@@ -1,0 +1,35 @@
+<div class="chain-container">
+    <div class="chain"></div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Block <small class="text-muted" *ngIf="block.previousHash == 0">(Genesis block)</small></h4>
+        </div>
+    
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <h4 class="">Hash</h4>
+                <div class="text-truncate truncate1 hash" [style.color]="'#' + block.hash.substring(0,6)">
+                    <small>{{ block.hash }}</small>
+                </div>
+                <h4 class="">Hash of previous block</h4>
+                <div class="text-truncate hash" [style.color]="'#' + block.previousHash.substring(0,6)">
+                    <small>{{ block.previousHash }}</small>
+                </div>
+            </li>
+    
+            <li class="list-group-item">
+                <h4 class="">Nonce</h4>
+                <div class="text-truncate text-muted">
+                    <small>{{ block.nonce }}</small>
+                </div>
+            </li>
+    
+            <li class="list-group-item">
+                <h4 class="">Timestamp</h4>
+                <div class="text-truncate text-muted">
+                    <small>{{ block.timestamp }}</small>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

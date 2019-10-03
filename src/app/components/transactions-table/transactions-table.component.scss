@@ -1,0 +1,32 @@
+table, p {
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: white;
+    width: 80%;
+    border-radius: 15px;
+    animation: intro 1s ease forwards;
+}
+
+th {
+    text-align: left;
+    border-top: none;
+
+}
+
+td {
+    opacity: 0.6;
+    //width: 360px;
+    
+}
+
+@keyframes intro {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

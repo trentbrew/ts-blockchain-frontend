@@ -1,0 +1,88 @@
+.card {
+    //background: #e0e0e0;
+    border-radius: 15px;
+    margin-right: 30px;
+    width: 300px;
+    color: white;
+    border: 5px solid rgba(0,0,0,0);
+    border-radius: 15px;
+    //box-shadow: 0px 5px 0px 0px rgba(black, 1);
+    transition: 300ms;
+
+    &:hover {
+        border: 5px solid white;
+        cursor: pointer;
+    }
+}
+
+.chain-container {
+    display: flex;
+}
+
+.chain {
+    //background: blue;
+    height: 50px;
+    width: 30px;
+    background-image: url('/../assets/chain.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    margin-top: 135px;
+    //opacity: 0.2;
+}
+
+.hash {
+    //background: rgba(0,0,0,0.15);
+    //border-radius: 10px;
+    //padding: 5px 10px 5px 10px;
+}
+
+h4 {
+    margin: 0px;
+    font-weight: normal;
+}
+
+.card-body {
+    background: #E0245E;
+    padding: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list-group {
+    margin: 0px;
+}
+
+.text-truncate {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.truncate1 {
+    margin-bottom: 15px;
+}
+
+.text-muted {
+    opacity: 0.6;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 30px;
+}
+
+li:nth-child(1) {
+    background: #bf1f50;
+}
+li:nth-child(2) {
+    background: #a61b45;
+}
+li:nth-child(3) {
+    background: #96183e;
+    border-radius: 0px 0px 10px 10px;
+}
