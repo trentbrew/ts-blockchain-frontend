@@ -7,10 +7,92 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: #15202B;
-    color: white;
+    background: #e0e0e0;
+    color: black;
 }
 
 h4 {
     font-size: 18px;
 }
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    transition: 300ms;
+
+    &:hover {
+        cursor: pointer;
+        background: #e0e0e0;
+    }
+}
+
+.navbrand {
+    //display: none;
+    color: black;
+
+}
+
+.navbar {
+    background: #bdbdbd !important;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-tx-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.subsub {
+    margin-bottom: 50px;
+    opacity: 0.4;
+}
+
+.sub-button {
+    margin-top: 50px;
+    color: white;
+    background: #4caf50;
+
+    &:hover {
+        background: rgba(#4caf50,0.3);
+    }
+}
+
+.pending-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.settings-container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.app-head {
+    h2 {
+        color: black;
+    }
+}
+
+small {
+    color: white !important;
+    opacity: 0.5;
+}
+
+.text-muted {
+    color: white !important;
+}
+

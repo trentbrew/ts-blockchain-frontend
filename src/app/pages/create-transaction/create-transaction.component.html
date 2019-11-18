@@ -1,6 +1,6 @@
 <div class="create-tx-container">
     <h1>Create transaction</h1>
-    <p>Transer some money to someone!</p>
+    <p class="subsub">Transer some money to someone!</p>
     <br>
     <div class="form-group">
         <label>From address</label>
@@ -14,5 +14,5 @@
         <label for="amount">Amount</label>
         <input type="text" class="form-control" [(ngModel)]="newTx.amount">
     </div>
-    <button (click)="createTransaction()" class="button">Sign & create transaction</button>
+    <button (click)="createTransaction()" class="button sub-button">Sign & create transaction</button>
 </div>
